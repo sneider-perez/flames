@@ -7,11 +7,13 @@ public class Projectile : MonoBehaviour
 
     public float speed;
     public float lifeTime;
+    public GameObject explosion;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        Invoke("DestroyProjectile", lifeTime);
         Destroy(gameObject, lifeTime);
     }
 
@@ -20,4 +22,11 @@ public class Projectile : MonoBehaviour
     {
         transform.Translate(Vector2.up * speed * Time.deltaTime);
     }
+
+    void DestroyProjectile()
+    {
+        Instantiate(explosion, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+    }
+
 }
