@@ -424,6 +424,7 @@ GameObject:
   - component: {fileID: 2300810277636474761}
   - component: {fileID: 2300810277636474760}
   - component: {fileID: 2300810277636474763}
+  - component: {fileID: 8744138598961968101}
   m_Layer: 9
   m_Name: Minion
   m_TagString: Enemy
@@ -515,6 +516,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &8744138598961968101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300810277636474762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c10904eb1853934084b11ff68e5ccb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+  speed: 25
+  timeBetweenAttacks: 0.5
+  stopDistance: 7
+  attackSpeed: 0.75
 --- !u!1 &2300810277925335055
 GameObject:
   m_ObjectHideFlags: 0
