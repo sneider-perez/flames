@@ -114,9 +114,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 78
-        y: 249
-        width: 562
-        height: 506
+        y: 269
+        width: 527
+        height: 456
       alignment: 9
       pivot: {x: 0.51731664, y: 0.055837214}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,8 +134,8 @@ TextureImporter:
       name: MinionArm
       rect:
         serializedVersion: 2
-        x: 84
-        y: 83
+        x: 53
+        y: 86
         width: 129
         height: 99
       alignment: 9
@@ -155,7 +155,7 @@ TextureImporter:
       name: MinionLeg
       rect:
         serializedVersion: 2
-        x: 519
+        x: 488
         y: 67
         width: 48
         height: 109
@@ -176,10 +176,10 @@ TextureImporter:
       name: MinionBody
       rect:
         serializedVersion: 2
-        x: 263
-        y: 9
+        x: 236
+        y: 18
         width: 182
-        height: 201
+        height: 192
       alignment: 9
       pivot: {x: 0.54183394, y: 0.14390674}
       border: {x: 0, y: 0, z: 0, w: 0}

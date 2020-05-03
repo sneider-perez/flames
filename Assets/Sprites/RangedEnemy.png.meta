@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: 7296b7733f6ce184abfe687ad6ae0a7a
+guid: 0067a1c90bc9cdf4d880d8376b190648
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: Summoner_0
+    second: RangedEnemy_0
   - first:
       213: 21300002
-    second: Summoner_1
+    second: RangedEnemy_1
   - first:
       213: 21300004
-    second: Summoner_2
-  - first:
-      213: 21300006
-    second: Summoner_3
-  - first:
-      213: 21300008
-    second: Summoner_4
+    second: RangedEnemy_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -60,9 +54,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 75
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -161,106 +155,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Summoner_0
+      name: RangedEnemy_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 471
-        width: 614
-        height: 517
+        x: 85
+        y: 635
+        width: 313
+        height: 275
       alignment: 9
-      pivot: {x: 0.5057028, y: 0.16135925}
+      pivot: {x: 0.962429, y: 0.4057322}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ad95d96b95c7414a88d9ab6d9177f3f
+      spriteID: 86794e6cd0380bc4482bca1a98209d2b
       internalID: 21300000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Summoner_1
+      name: RangedEnemy_1
       rect:
         serializedVersion: 2
-        x: 672
-        y: 471
-        width: 361
-        height: 476
+        x: 22
+        y: 58
+        width: 544
+        height: 573
       alignment: 9
-      pivot: {x: 0.044120304, y: 0.28421855}
+      pivot: {x: 0.4632744, y: 0.15534438}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecaf6c474fec09b48814b34b19d4d6ee
+      spriteID: 3d851f7266601274ba72ac0fce7a2dd3
       internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Summoner_2
+      name: RangedEnemy_2
       rect:
         serializedVersion: 2
-        x: 226
-        y: 274
-        width: 190
-        height: 140
+        x: 586
+        y: 43
+        width: 544
+        height: 586
       alignment: 9
-      pivot: {x: 0.8992991, y: 0.9168505}
+      pivot: {x: 0.4910726, y: 0.13155237}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 912e0f9258883304ab72de5c0d3e44dc
+      spriteID: 0c00cd56da6421c4f8b63a464e573e71
       internalID: 21300004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Summoner_3
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 65
-        width: 56
-        height: 158
-      alignment: 9
-      pivot: {x: 0.5416854, y: 0.9210717}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ad56353472c17143a0a877ff113bd1f
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Summoner_4
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 57
-        width: 437
-        height: 372
-      alignment: 9
-      pivot: {x: 0.47596177, y: 0.20120145}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d0cc97380b99334f93b1bbc4dc089c6
-      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -268,7 +220,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ddd243c9a03c16d479d88105196594f1
+    spriteID: f508e827b31a0704d8f88baa881eb0a3
     internalID: 0
     vertices: []
     indices: 
